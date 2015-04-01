@@ -1,6 +1,7 @@
 == README
 
 v0.0.0 3/31/15
+
 Initialized the Rails application from scratch. Created a repository on Github and created a 
 README file.
   
