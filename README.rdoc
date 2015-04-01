@@ -1,28 +1,38 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+v0.0.0 3/31/15
+  - Initialized the Rails application from scratch. Created a repository on Github and created a README file.
+  
+Dependencies:
+Ruby Version 2.2.1
+Rails Version 4.2.1
 
-Things you may want to cover:
+===================
 
-* Ruby version
+Group Project Memo
 
-* System dependencies
+Purpose
 
-* Configuration
+This web application will be a center for verifying quotes made by historical people. Webgoers can 
+create accounts and then add quotes to the website. They will also be able to save and share quotes 
+with other users using the web application. Commenting on quotes will be a key feature for this web 
+application, adding to the social networking experience.
 
-* Database creation
+The end goal is becoming the pre-eminent website for sourcing quotes made by famous people. We hope 
+to include a unique tagging citation that users can use to link quotes directly to our site. The idea 
+is to give people a quick and easy way to fact check quotes. Just like how Wikipedia sources its 
+information through its users, we will follow the same model, trusting that users will interact 
+in the same spirit as Wikipedia. It would be run by a community and moderated by the community, 
+and would force people to verify the credibility of the quotes that they post.
 
-* Database initialization
+Scope
 
-* How to run the test suite
+The web app can be used by anyone who has an internet connection. The website will only contain quotes 
+by well-known people or quotes that are ubiquitous. The technologies we will use for this web application 
+are Ruby on Rails for the backend, Bootstrap, Javascript, and Jquery for the client side. We will use third 
+party gems to perform common but important tasks such as logging users in, creating forms, connecting to 
+social networking sites, etc.
 
-* Services (job queues, cache servers, search engines, etc.)
+Group Members:
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Michael Lee, Zachary Klima, Dennis Toppel
