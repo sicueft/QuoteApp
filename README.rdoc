@@ -31,7 +31,7 @@ Scope
 
 The web app can be used by anyone who has an internet connection. The website will only contain quotes 
 by well-known people or quotes that are ubiquitous. The technologies we will use for this web application 
-are Ruby on Rails for the backend, Bootstrap, Javascript, and Jquery for the client side. We will use third 
+are Ruby on Rails for the backend, Javascript, and Jquery for the client side. We will use third 
 party gems to perform common but important tasks such as logging users in, creating forms, connecting to 
 social networking sites, etc.
 
