@@ -1,4 +1,9 @@
 # README
+
+**v1.2.0**
+
+Styled the application with CSS and formatted for mobile first design. Used rich web typography. 
+
 **v1.1.0**
 
 Added association between quotes and users, that is, quotes belong to a user. Users must sign in to add quotes. Also added a feedback form.
