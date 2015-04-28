@@ -1,0 +1,15 @@
+= simple_form_for @quote, html: {multipart: true} do |f|
+	- if @quote.errors.any?
+		#errors
+			%h2
+			= pluralize(@quote.errors.count, "error")
+			Prevented this quote from saving
+			%ul
+				- @quote.errors.full_message.each do |msg|
+					%li msg
+
+	= f.input :name, input_html: {}
+
+	= f.input :description, input_html: {}
+
+	= f.button :submit
