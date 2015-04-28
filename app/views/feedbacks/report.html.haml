@@ -1,5 +1,6 @@
-%div{class: 'form center'}
-	= simple_form_for @feedback, html: {multipart: false} do |f|
+%h2 Quote Report
+
+= simple_form_for @feedback, html: {multipart: false} do |f|
 		= f.input :name
 		= f.input :email
 		= f.input :comment

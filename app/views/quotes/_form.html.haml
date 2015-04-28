@@ -1,15 +1,15 @@
-= simple_form_for @quote, html: {multipart: true} do |f|
-	- if @quote.errors.any?
-		#errors
-			%h2
-			= pluralize(@quote.errors.count, "error")
-			Prevented this quote from saving
-			%ul
-				- @quote.errors.full_message.each do |msg|
-					%li msg
+%div{class: 'form center'}
+	= simple_form_for @quote, html: {multipart: true} do |f|
+		- if @quote.errors.any?
+			#errors
+				%h2
+				= pluralize(@quote.errors.count, "error")
+				Prevented this quote from saving
+				%ul
+					- @quote.errors.full_message.each do |msg|
+						%li msg
 
-	= f.input :name
-
-	= f.input :description
-
-	= f.button :submit
+		= f.input :name
+		= f.input :description
+		= f.button :submit, {class: 'button'}
+		= link_to 'Back', root_path, {class: 'button'}
