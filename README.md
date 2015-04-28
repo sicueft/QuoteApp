@@ -9,11 +9,11 @@ v0.0.0 3/31/15
 Initialized the Rails application from scratch. Created a repository on Github and created a 
 README file.
   
+```
 Dependencies:
 Ruby Version 2.2.1
 Rails Version 4.2.1
-
-===================
+```
 
 # Group Project Memo
 
