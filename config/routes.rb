@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :quotes
+  resources :quotes, :feedbacks
 
   get '/auth/:provider/callback', to: 'sessions#create'
   get '/signout', to: 'sessions#destroy', :as => :signout
