@@ -1,4 +1,7 @@
 # README
+**v1.1.0**
+
+Added association between quotes and users.
 
 **v1.0.0 4/28/15**
 
