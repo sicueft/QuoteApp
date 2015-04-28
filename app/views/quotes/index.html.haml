@@ -1,6 +1,9 @@
 %h1 Quotes
 
-%h3= link_to "Add a Quote", new_quote_path
+- if current_user 
+	%h3= link_to "Add a Quote", new_quote_path
+- else
+	%h3 Please sign in.
 
 - @quotes.each do |quote|
 	%h2= link_to quote.description, quote
