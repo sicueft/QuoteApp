@@ -1,7 +1,15 @@
+
 %h1= @quote.name
 %p= @quote.description
+
+%h2 Submitted by:
 %p= @quote.user.name
 
 = link_to "Back", root_path
-= link_to "Edit", edit_quote_path
-= link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}
+
+- if current_user && current_user.id == @quote.user.id
+	= link_to "Edit", edit_quote_path
+	= link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}
+- else 
+
+
