@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ .main-content{
+ 	width: 80%;
+ 	float: left;
+ 	margin: 5% auto;
+ 	padding: 0 10%;
+ }
+.signedin {
+	 list-style-type: none;
+	 margin-top: 1%;
+}
+.signedin li {
+	float: right;
+	padding-right: 5%;
+	font-family: ;
+	font-size: 15pt;
+}
+.header {
+	display: block;
+	float: left;
+	font-size: 40pt;
+	margin: 2% 0 0 2%;
+}
+.feedback{
+	display: block;
+	clear: both;
+}
+
