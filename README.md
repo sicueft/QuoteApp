@@ -13,6 +13,8 @@ README file.
 Dependencies:
 Ruby Version 2.2.1
 Rails Version 4.2.1
+OmniAuth 1.0a
+Simple_form 3.1
 ```
 
 # Group Project Memo
