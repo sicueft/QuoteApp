@@ -1,10 +1,10 @@
 # README
 
-v1.0.0 4/28/15
+**v1.0.0 4/28/15**
 
 Implemented CRUD functionality to the app so users can create and delete quotes. Used Omniauth for user authentication with Twitter.
 
-v0.0.0 3/31/15
+**v0.0.0 3/31/15**
 
 Initialized the Rails application from scratch. Created a repository on Github and created a 
 README file.
