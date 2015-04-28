@@ -20,6 +20,9 @@
  	margin: 10% auto;
  	padding: 0 10%;
  }
+#logo {
+	text-decoration: none;
+}
 .signedin {
 	 list-style-type: none;
 	 margin-top: 1%;
@@ -44,8 +47,42 @@
 }
 .center {
 	text-align: center;
+	margin: 0 auto;
 }
 .large {
 	font-size: 25pt;
 }
+.form {
+	margin-top: 10px;
+}
+.huge-l {
+	font-size: 60px;
+	float: left;
+	margin-left: 10%;
+	font-family: 'Garamond';
+}
+.huge-r {
+	font-size: 60px;
+	float: right;
+	margin-right: 10%;
+	font-family: 'Garamond';
+}
+.quote-desc {
+	display: block;
+	margin-bottom: 30px;
+	line-height: 30px;
+	font-family: 'Garamond', sans-serif;
+}
+.quote-name {
+	display: block; 
+}
 
+.right {
+	text-align: right;
+	margin: 20px;
+	clear: both;
+}
+
+.submitted {
+	margin-top: 50px;
+}

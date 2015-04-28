@@ -7,5 +7,5 @@
 	%br
 	%h1 Quotes listings:
 	- @quotes.each do |quote|
-		%h2= link_to quote.description, quote
+		%h2{class: 'quote-desc'}= link_to truncate(quote.description, :length => 80), quote
 -else

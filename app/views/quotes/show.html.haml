@@ -1,15 +1,21 @@
+%div{class: 'center'}
 
-%h1= @quote.name
-%p= @quote.description
+	%div{class:'huge-l'}“
+	%h1{class:'quote-desc center'}= @quote.description
+	%div{class:'huge-r'}”
 
-%h2 Submitted by:
-%p= @quote.user.name
+	%h1{class:'quote-name right'}= '-'+@quote.name
 
-= link_to "Back", root_path
+	%h3{class: "submitted"} Submitted by:
+	%h1= @quote.user.name
 
-- if current_user && current_user.id == @quote.user.id
-	= link_to "Edit", edit_quote_path
-	= link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}
-- else 
+	= link_to "Back", root_path, {class: 'center btn'}
+
+	- if current_user && current_user.id == @quote.user.id
+		= link_to "Edit", edit_quote_path
+		= link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}
+	- else
 
 
+%h2{class: 'center submitted'} 
+	=link_to 'Report this quote', new_feedback_path 
