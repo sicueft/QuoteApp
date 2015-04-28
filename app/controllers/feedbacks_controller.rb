@@ -1,5 +1,8 @@
-class FeedbackController < ApplicationController
+class FeedbacksController < ApplicationController
 
+	def index
+	end
+	
 	def new
 		@feedback = Feedback.new
 	end
@@ -11,6 +14,8 @@ class FeedbackController < ApplicationController
 		else
 			render 'new'
 		end
+
+		head :ok
 	end
 
 	private
