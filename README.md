@@ -39,6 +39,6 @@ are Ruby on Rails for the backend, Javascript, and Jquery for the client side. W
 party gems to perform common but important tasks such as logging users in, creating forms, connecting to 
 social networking sites, etc.
 
-# Group Members:
+## Group Members:
 
 Michael Lee, Zachary Klima, Dennis Toppel
