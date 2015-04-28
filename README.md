@@ -1,4 +1,4 @@
-== README
+# README
 
 v1.0.0 4/28/15
 
@@ -15,9 +15,9 @@ Rails Version 4.2.1
 
 ===================
 
-## Group Project Memo
+# Group Project Memo
 
-# Purpose
+## Purpose
 
 This web application will be a center for verifying quotes made by historical people. Webgoers can 
 create accounts and then add quotes to the website. They will also be able to save and share quotes 
@@ -31,7 +31,7 @@ information through its users, we will follow the same model, trusting that user
 in the same spirit as Wikipedia. It would be run by a community and moderated by the community, 
 and would force people to verify the credibility of the quotes that they post.
 
-# Scope
+## Scope
 
 The web app can be used by anyone who has an internet connection. The website will only contain quotes 
 by well-known people or quotes that are ubiquitous. The technologies we will use for this web application 
@@ -39,6 +39,6 @@ are Ruby on Rails for the backend, Javascript, and Jquery for the client side. W
 party gems to perform common but important tasks such as logging users in, creating forms, connecting to 
 social networking sites, etc.
 
-## Group Members:
+# Group Members:
 
 Michael Lee, Zachary Klima, Dennis Toppel
