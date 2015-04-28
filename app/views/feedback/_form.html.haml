@@ -1,0 +1,15 @@
+= simple_form_for @feedback, do |f|
+	- if @feedback.errors.any?
+		#errors
+			%h2
+			= pluralize(@feedback.errors.count, "error")
+			Prevented this quote from saving
+			%ul
+				- @feedback.errors.full_message.each do |msg|
+					%li msg
+
+	= f.input :name
+	= f.input :email
+	= f.input :comment
+
+	= f.button :submit

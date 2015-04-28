@@ -1,5 +1,6 @@
 %h1= @quote.name
 %p= @quote.description
+%p= @quote.user.name
 
 = link_to "Back", root_path
 = link_to "Edit", edit_quote_path
