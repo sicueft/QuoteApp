@@ -10,4 +10,5 @@ class User < ActiveRecord::Base
 		user
 	end
 
+	has_many :quotes
 end
