@@ -22,6 +22,20 @@ class QuotesController < ApplicationController
 		end
 	end
 
+	def edit
+	end
+
+	def update
+		if @quote.update(quote_params)
+			redirect_to @quote, notice: "Quote was successfully updated."
+		else
+			render 'edit'
+		end
+	end
+
+	def destroy
+	end
+
 	private
 
 	def quote_params
