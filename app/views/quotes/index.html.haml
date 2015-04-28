@@ -1,1 +1,4 @@
 %h1 Index
+
+- @quotes.each do |quote|
+	%h2= link_to quote.description, quote

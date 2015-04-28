@@ -2,6 +2,7 @@ class QuotesController < ApplicationController
 	before_action :find_quote, only: [:show, :edit, :update, :destroy]
 
 	def index
+		@quotes = Quote.all.order("created_at DESC")
 	end
 
 	def show
