@@ -1,7 +1,7 @@
 # README
 **v1.1.0**
 
-Added association between quotes and users.
+Added association between quotes and users, that is, quotes belong to a user. Users must sign in to add quotes. Also added a feedback form.
 
 **v1.0.0 4/28/15**
 
