@@ -17,7 +17,7 @@
  .main-content{
  	width: 80%;
  	float: left;
- 	margin: 5% auto;
+ 	margin: 10% auto;
  	padding: 0 10%;
  }
 .signedin {
@@ -39,5 +39,13 @@
 .feedback{
 	display: block;
 	clear: both;
+	margin: 0 35%;
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+.large {
+	font-size: 25pt;
 }
 
