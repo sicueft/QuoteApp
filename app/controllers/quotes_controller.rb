@@ -34,6 +34,8 @@ class QuotesController < ApplicationController
 	end
 
 	def destroy
+		@quote.destroy
+		redirect_to root_path
 	end
 
 	private

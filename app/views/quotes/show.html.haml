@@ -2,3 +2,5 @@
 %p= @quote.description
 
 = link_to "Back", root_path
+= link_to "Edit", edit_quote_path
+= link_to "Delete", quote_path, method: :delete, data: {confirm: "Are you sure?"}
