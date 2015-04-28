@@ -1,0 +1,6 @@
+%h1 Index
+
+%h3= link_to "Add a Quote", new_quote_path
+
+- @quotes.each do |quote|
+	%h2= link_to quote.description, quote
