@@ -59,19 +59,19 @@
 	font-size: 60px;
 	float: left;
 	margin-left: 10%;
-	font-family: 'Garamond';
+	font-family: sans-serif;
 }
 .huge-r {
 	font-size: 60px;
 	float: right;
 	margin-right: 10%;
-	font-family: 'Garamond';
+	font-family: sans-serif;
 }
 .quote-desc {
 	display: block;
 	margin-bottom: 30px;
 	line-height: 30px;
-	font-family: 'PT Sans Caption', sans-serif;
+	font-family: sans-serif;
 }
 .quote-name {
 	display: block;
