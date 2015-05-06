@@ -1,5 +1,9 @@
 # README
 
+**v1.3.0**
+
+Deployed on Heroku.
+
 **v1.2.0**
 
 Styled the application with CSS and formatted for mobile first design. Used rich web typography. 
