@@ -9,6 +9,9 @@
 	%h3{class: "submitted"} Submitted by:
 	%h1= @quote.user.name
 
+	%h1{class: "submitted"} Source:
+	%h1= @quote.citation
+
 	= link_to "Back", root_path, {class: 'center btn'}
 
 	- if current_user && current_user.id == @quote.user.id
